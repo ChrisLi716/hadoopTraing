@@ -12,7 +12,7 @@ import java.io.IOException;
 
 public class DeleteFromHBase {
   public static void delete(Configuration conf) throws IOException {
-    Connection connection = null;
+    Connection connection;
 
     connection = ConnectionFactory.createConnection(conf);
 
